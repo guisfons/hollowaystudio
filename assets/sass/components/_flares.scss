@@ -1,0 +1,75 @@
+.blob {
+    position: absolute;
+    z-index: -1;
+    filter: blur(4.7rem);
+    
+    width: fit-content;
+    height: fit-content;
+    opacity: 1;
+
+    @include max (900) {
+        animation: none !important;
+    }
+
+    @include max (600) {
+        max-width: 100%;
+    }
+
+    &--1 {
+        left: -3rem;
+
+        transform-origin: calc(50% + 40rem);
+        animation: moveHorizontal 7s ease infinite;
+    }
+
+    &--2 {
+        width: 60rem;
+        height: auto;
+        right: 0;
+        animation: moveInCircle 15s reverse infinite;
+    }
+
+    &--3 {
+        transform-origin: calc(50% + 40rem);
+        animation: moveHorizontal 15s linear infinite;
+
+        opacity: 1;
+    }
+
+    &--4 {
+        width: 30rem;
+        height: 30rem;
+        top: calc(50% - 30rem / 2);
+        left: calc(50% - 30rem / 2);
+
+        transform-origin: calc(50% - 200px);
+        animation: moveInCircle 20s ease infinite;
+
+        opacity: 0.7;
+    }
+
+    &--5 {
+        width: calc(30rem * 2);
+        height: calc(30rem * 2);
+        top: calc(50% - 30rem);
+        left: calc(50% - 30rem);
+
+        transform-origin: calc(50% - 800px) calc(50% + 200px);
+        animation: moveInCircle 10s ease infinite;
+    }
+
+    &--6 {
+        top: calc(50% - 30rem / 2);
+        left: calc(50% - 30rem / 2);
+
+        transform-origin: calc(50% - 20rem);
+        animation: moveHorizontal 20s ease infinite;
+
+        @include max (600) { display: none; }
+    }
+
+    &--7 {
+        top: -20rem;
+        animation: moveHorizontal 20s ease infinite;
+    }
+}

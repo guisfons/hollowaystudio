@@ -1,0 +1,26 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .825rem;
+
+    font-size: 1.8rem;
+    font-family: $general-regular;
+    font-weight: $regular;
+
+    max-width: 23.8rem;
+    width: 100%;
+
+    padding: 1.6rem;
+    border-radius: 1.2rem;
+    background-color: $blue;
+
+    &--highlight {
+        font-family: $general-medium;
+        font-weight: $medium;
+        font-size: 2.4rem;
+
+        max-width: 30.8rem;
+        gap: 1.7rem;
+    }
+}

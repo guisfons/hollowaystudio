@@ -1,0 +1,16 @@
+// SCSS global
+
+@import 'abstracts/fonts';
+@import 'abstracts/variables';
+@import 'abstracts/utilities';
+@import 'abstracts/animations';
+
+@import 'base/reset';
+
+@import 'components/button';
+@import 'components/flares';
+@import 'components/cursor';
+
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/loader';

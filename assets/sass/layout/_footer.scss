@@ -1,0 +1,66 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    padding: 6rem 0;
+    background: linear-gradient(117.46deg, rgba($color: $gray, $alpha: .2) -19.05%, rgba($color: $black, $alpha: .2) 100%);
+    border-radius: 6rem 6rem 0 0;
+
+    margin-top: 5rem;
+
+    &__container {
+        max-width: 124rem;
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 7.8rem;
+    }
+
+    &__logo {
+        max-width: 17.5rem;
+        display: flex;
+    }
+    
+    &__up {
+        position: absolute;
+        top: -10rem;
+        right: 0;
+        width: 8rem;
+        height: 8rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: $blue;
+        border-radius: 50%;
+        border: none;
+    }
+    
+    &__foot {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 5rem;
+        width: 100%;
+    
+        p {
+            max-width: 58.2rem;
+            font-size: 1.4rem;
+            line-height: 2.6rem;
+        }
+    }
+    
+    &__social {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.9rem;
+        max-width: 15.2rem;
+        width: 100%;
+        align-items: center;
+    }
+}

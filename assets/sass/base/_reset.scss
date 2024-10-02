@@ -1,0 +1,94 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+::-webkit-scrollbar {
+    width: .8rem;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $blue;
+    border-radius: 1rem;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+    @include max (900) {
+        font-size: 55%;
+    }
+}
+body {
+    box-sizing: border-box;
+    position: relative;
+    overscroll-behavior: none;
+    font-family: $general-regular;
+    font-weight: $regular;
+    background-color: $black;
+    color: $white;
+    overflow-x: hidden;
+    cursor: none !important;
+
+    &:has(.loader--active) {
+        overflow: hidden;
+    }
+}
+main {
+    position: relative;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: none;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1240px;
+}
+span, button {
+    cursor: none;
+}
+
+h2 {
+    font-size: 6.4rem;
+    font-family: $general-medium;
+    font-weight: $medium;
+}
+
+h3 {
+    font-size: 4rem;
+    font-family: $general-regular;
+    font-weight: $regular;
+}
+
+h4 {
+    font-size: 3rem;
+    font-family: $general-regular;
+    font-weight: $regular;
+}
+
+p {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+}
+
+section {
+    opacity: 0;
+    transform: translateY(5rem);
+
+    &:not(.title) {
+        min-height: calc(fit-content + 20rem);
+    }
+}
