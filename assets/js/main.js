@@ -286,12 +286,12 @@ function checkIfPageLoaded() {
     if (document.readyState === 'complete') {
         setTimeout(() => {
            $('.loader').removeClass('loader--active') 
-        }, 3000)
+        }, 1000)
     } else {
         $(window).on('load', function () {
             setTimeout(() => {
                $('.loader').removeClass('loader--active') 
-            }, 3000)
+            }, 1000)
         })
     }
 }
