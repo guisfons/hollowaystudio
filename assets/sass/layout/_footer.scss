@@ -6,7 +6,8 @@
     padding: 6rem 0;
     background: linear-gradient(117.46deg, rgba($color: $gray, $alpha: .2) -19.05%, rgba($color: $black, $alpha: .2) 100%);
     border-radius: 6rem 6rem 0 0;
-
+    
+    overflow-x: clip;
     margin-top: 5rem;
 
     &__container {

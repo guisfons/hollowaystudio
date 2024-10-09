@@ -13,6 +13,25 @@
 	<span>Nós desenhamos e criamos um novo mundo.</span>
 </section>
 
+<section class="banner">
+	<div class="banner__scroll">
+		<div class="banner__content">
+			<span>3 text, show</span>
+			<figure>
+				<img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/img/banner/1.webp" alt="">
+				<img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/img/banner/2.webp" alt="">
+				<img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/img/banner/3.webp" alt="">
+				<img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/img/banner/4.webp" alt="">
+			</figure>
+		</div>
+	</div>
+	<!-- <div class="banner__nav">
+		<button></button>
+		<button></button>
+		<button></button>
+	</div> -->
+</section>
+
 <section class="text">
 	<h2>Criação de <strong>Sites Otimizados</strong><br/> para o seu Negócio</h2>
 	<p>Somos uma agência especializada em desenvolvimento de sites, prontos para ajudar você
@@ -96,11 +115,18 @@
 	<span>Nossos Clientes</span>
 
 	<div class="clients__box">
-		<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/habibs.webp" alt=""></a></figure>
-		<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/vida_simples.webp" alt=""></a></figure>
-		<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/habibs.webp" alt=""></a></figure>
-		<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/vida_simples.webp" alt=""></a></figure>
-		<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/habibs.webp" alt=""></a></figure>
+		<div class="clients__scroll">
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/habibs.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/vida_simples.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/habibs.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/vida_simples.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/habibs.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/habibs.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/vida_simples.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/habibs.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/vida_simples.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/habibs.webp" alt=""></a></figure>
+		</div>
 	</div>
 
 	<div class="clients__texts">
@@ -124,7 +150,7 @@
 			</article>
 
 			<div class="projects__list">
-				<div class="projects__card" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/1.webp');">
+				<div class="projects__card projects__card--active" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/1.webp');">
 					<a href=""><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.9878 15.2779L19.313 0.68674L4.7218 1.01191C4.57029 0.995106 4.4153 1.01127 4.26735 1.05932C4.11939 1.10736 3.98192 1.18616 3.86423 1.29038C3.74654 1.3946 3.65138 1.52181 3.5852 1.66338C3.51903 1.80496 3.48337 1.95761 3.48065 2.111C3.47793 2.26438 3.50821 2.41492 3.56943 2.55242C3.63066 2.68992 3.72141 2.81117 3.83553 2.90797C3.94966 3.00476 4.08449 3.07484 4.23091 3.11346C4.37733 3.15208 4.53191 3.15834 4.6842 3.13181L15.6177 2.90521L0.771199 17.7517C0.565368 17.9575 0.445765 18.2327 0.4387 18.5167C0.431633 18.8008 0.537684 19.0703 0.733521 19.2662C0.929358 19.462 1.19894 19.5681 1.48296 19.561C1.76699 19.5539 2.04218 19.4343 2.24801 19.2285L17.0945 4.38202L16.8679 15.3155C16.8618 15.5997 16.9689 15.869 17.1656 16.0642C17.3623 16.2594 17.6324 16.3645 17.9166 16.3565C18.2008 16.3484 18.4758 16.2278 18.681 16.0211C18.8863 15.8145 19.005 15.5388 19.0111 15.2546L18.9878 15.2779Z" fill="white"/></svg></a>
 					<h4>Vida Simples</h4>
 					<p>Lorem ipsum dolor sit amet. In perspiciatis corrupti nam similique omnis qui repellendus quia.</p>

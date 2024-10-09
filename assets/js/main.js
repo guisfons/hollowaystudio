@@ -1,29 +1,33 @@
 $(document).ready(function () {
-    window.addEventListener('resize', function () {
-        wrapperDistance()
-    })
+    // window.addEventListener('resize', function () {
+    //     wrapperDistance()
+    // })
 
     loader()
-    wrapperDistance()
     header()
+    // $(window).on('resize', function() {
+    //     projects()
+    // })
+
     projects()
     cursor()
     scrollbar()
     fadeIn()
+    clients()
     // scrollTop()
     // banner()
 })
 
-function wrapperDistance() {
-    let distance = $('.wrapper').offsetLeft
+// function wrapperDistance() {
+//     let distance = $('.wrapper').offsetLeft
 
-    $('.wrapper-left').each(function (item) {
-        item.style.paddingLeft = `${distance}px`
-    })
-    $('.wrapper-left').each(function (item) {
-        item.style.paddingRight = `${distance}px`
-    })
-}
+//     $('.wrapper-left').each(function (item) {
+//         item.style.paddingLeft = `${distance}px`
+//     })
+//     $('.wrapper-left').each(function (item) {
+//         item.style.paddingRight = `${distance}px`
+//     })
+// }
 
 function header() {
     $(window).scroll(function () {
@@ -88,24 +92,73 @@ function banner() {
     })
 }
 
-function projects() {
-    gsap.registerPlugin(ScrollTrigger)
+function clients() {
+    const $container = $('.clients__scroll')
+    const $logos = $('.clients__scroll figure')
+    
+    $logos.clone().appendTo($container)
 
-    gsap.to('.projects__inner', {
-        x: () => {
-            const lastCard = document.querySelector('.projects__card:last-child')
-            const lastCardPos = lastCard.getBoundingClientRect().top
-            const viewportHeight = window.innerHeight
-            return `-${lastCardPos - viewportHeight / 2}px`
-        },
-        ease: 'power1.inOut',
-        scrollTrigger: {
-            trigger: '.projects',
-            start: 'top top',
-            end: '+=2000',
-            scrub: 1,
-            pin: true,
-            anticipatePin: 1
+    let totalWidth = 0
+    $logos.each(function() {
+        totalWidth += $(this).outerWidth(true)
+    })
+
+    function animateLogos() {
+        $container.animate(
+            function() {
+                $container.css('left', '0')
+            }
+        )
+    }
+
+    animateLogos()
+}
+
+function projects() {
+    // if($(window).width() > 900) {
+        $(window).on('scroll', function() {
+            var section = document.querySelector('.projects')
+            if (section) {
+                var rect = section.getBoundingClientRect()
+                var sectionTop = rect.top 
+                var sectionHeight = rect.height
+                var scrollDistance = Math.abs(sectionTop)
+                var maxScroll = sectionHeight - window.innerHeight
+        
+                if (!(sectionTop <= 0 && Math.abs(sectionTop) > maxScroll)) {
+                    var container = section.querySelector('.projects__container')
+                    var inner = section.querySelector('.projects__inner')
+                    var list = inner.querySelector('.projects__list')
+            
+                    if (sectionTop <= 0) {
+                       
+                        container.style.transform = `translateY(${scrollDistance}px)`
+            
+                       
+                        var scrollPercent = scrollDistance / maxScroll * 100
+        
+                        var slowdownFactor = 1.5
+                        var slowedScrollPercent = scrollPercent / slowdownFactor
+        
+                        if (slowedScrollPercent >= 100) {
+                            inner.style.transform = 'translateX(calc(-100%))'
+                        } else {
+                            inner.style.transform = `translateX(calc(-${slowedScrollPercent}%)`
+                        }
+                    } else {
+                        container.style.transform = 'translateY(0px)'
+                        inner.style.transform = 'translateX(0%)'
+                    }
+                }
+            }
+        })
+    // }
+
+    $('.projects__card').on('mouseover', function() {
+        if(!$(this).is(':first-of-type')) {
+            $('.projects__card').removeClass('projects__card--active')
+        } else {
+            $(this).addClass('projects__card--active')
         }
     })
 }

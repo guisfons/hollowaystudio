@@ -65,6 +65,10 @@ h2 {
     font-size: 6.4rem;
     font-family: $general-medium;
     font-weight: $medium;
+
+    @include max (600) {
+        font-size: 3.65rem;
+    }
 }
 
 h3 {
@@ -88,7 +92,7 @@ section {
     opacity: 0;
     transform: translateY(5rem);
 
-    &:not(.title) {
-        min-height: calc(fit-content + 20rem);
-    }
+    // &:not(.title):not(.projects) {
+    //     min-height: 70vh;
+    // }
 }

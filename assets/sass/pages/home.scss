@@ -28,7 +28,8 @@
         flex-direction: column;
         
         width: 100%;
-        height: 300vh;
+        height: 100dvh;
+        // height: 300vh;
 
         figure {
             position: absolute;
@@ -41,11 +42,46 @@
             &::after {
                 content: '';
                 position: absolute;
+                z-index: 1;
                 width: 100%;
                 height: 100%;
                 color: rgba($color: #000000, $alpha: 1.0);
 
                 background: linear-gradient(180deg, rgba($color: $black, $alpha: 0) 0%, rgba($color: $black, $alpha: 1.0) 100%);
+            }
+
+            img {
+                position: absolute;
+
+                &:nth-of-type(1) {
+                    max-width: 70rem;
+                    width: 90%;
+                    left: -70rem;
+                    animation: leftToRight 30s ease-in-out infinite;
+                }
+
+                &:nth-of-type(2) {
+                    max-width: 70rem;
+                    width: 90%;
+                    right: -70rem;
+                    bottom: 0;
+                    animation: rightToLeft 30s ease-in-out infinite;
+                }
+
+                &:nth-of-type(3) {
+                    max-height: 70vh;
+                    height: 70vh;
+                    top: -70vh;
+                    left: 50%;
+                    animation: topToBottom 30s ease-in-out infinite;
+                }
+
+                &:nth-of-type(4) {
+                    max-height: 70vh;
+                    bottom: -70vh;
+                    right: 50%;
+                    animation: bottomToTop 30s ease-in-out infinite;
+                }
             }
         }
 
@@ -79,7 +115,7 @@
             font-size: 4rem;
 
             position: relative;
-            z-index: 1;
+            z-index: 2;
         }
     }
 
@@ -345,6 +381,11 @@
             flex: 1;
             padding: 3rem 3.4rem;
             height: 56rem;
+
+            @include max (600) {
+                height: fit-content;
+                min-height: 30rem;
+            }
         }
     }
 }
@@ -371,6 +412,10 @@
 
         @include max (900) {
             max-width: 100%;
+        }
+
+        @include max (600) {
+            line-height: initial;
         }
 
         strong {
@@ -420,12 +465,40 @@
         border-radius: 6rem;
 
         display: flex;
-        flex-wrap: wrap;
         gap: 2.4rem;
+        align-items: center;
+        justify-content: flex-start;
+        
+        z-index: 1;
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
 
         @include max (900) {
             padding: 3rem;
             justify-content: center;
+            background-color: transparent;
+            width: 100%;
+        }
+    }
+
+    &__scroll {
+        display: flex;
+        gap: 2.4rem;
+        align-items: center;
+        justify-content: flex-start;
+        white-space: nowrap;
+
+        animation: scroll 15s linear infinite;
+
+        figure {
+            width: 15rem;
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
         }
     }
 
@@ -484,38 +557,43 @@
                     flex: 1 0 100%;
                 }
 
-                width: 100%;
-                align-self: stretch;
-                color: rgba($color: $gray, $alpha: .2);
                 background: linear-gradient(117.46deg, rgba($color: $gray, $alpha: .2) -19.05%, $black 100%);
-                padding: 10.5rem 5rem;
 
-                
-                &::before {
-                    content: '“';
-                    font-family: $general-medium;
-                    font-weight: $medium;
-                    font-size: 37.2rem;
-                    line-height: 5rem;
-                    color: $lightperiwinkle;
-                    position: absolute;
-                    top: 9rem;
-                }
+                @include min (900) {
+                    width: 100%;
+                    align-self: stretch;
+                    color: rgba($color: $gray, $alpha: .2);
+                    padding: 10.5rem 5rem;
 
-                p {
-                    font-size: 4rem;
-                    line-height: initial;
+                    
+                    &::before {
+                        content: '“';
+                        font-family: $general-medium;
+                        font-weight: $medium;
+                        font-size: 37.2rem;
+                        line-height: 5rem;
+                        color: $lightperiwinkle;
+                        position: absolute;
+                        top: 9rem;
+                    }
+
+                    p {
+                        font-size: 4rem;
+                        line-height: initial;
+                    }
                 }
             }
 
-            &:not(:last-of-type) {
-                p {
-                    &::before {
-                        content: '“';
-                    }
-
-                    &::after {
-                        content: '”';
+            @include min (900) {
+                &:not(:last-of-type) {
+                    p {
+                        &::before {
+                            content: '“';
+                        }
+    
+                        &::after {
+                            content: '”';
+                        }
                     }
                 }
             }
@@ -523,21 +601,30 @@
 
         p {
             color: $white;
+
+            @include max (900) {
+                &::before {
+                    content: '“';
+                }
+    
+                &::after {
+                    content: '”';
+                }
+            }
         }
     }
 }
 
 .projects {
     padding: 10rem 0 0;
-    overflow-x: hidden;
-    height: 200vh;
-    position: relative;
+    height: 150vh;
+    overflow-y: clip;
+    overflow-x: clip;
 
     &__container {
         max-width: 124rem;
         width: 90%;
         margin: 0 auto;
-
         display: flex;
     }
 
@@ -545,6 +632,8 @@
         display: flex;
         gap: 5rem;
         width: max-content;
+        transform: translateZ(0);
+        will-change: transform;
     }
 
     article {
@@ -553,6 +642,10 @@
 
         h2 {
             line-height: 7.6rem;
+
+            @include max (600) {
+                line-height: initial;
+            }
 
             strong {
                 color: $lightperiwinkle;
@@ -565,7 +658,9 @@
     &__list {
         display: flex;
         gap: 4.45rem;
-        overscroll-behavior: none;
+        @include max (1100) {
+            overflow-x: scroll;
+        }
     }
 
     &__card {
@@ -634,7 +729,7 @@
         }
 
         h4 {
-            font-size: 4rem;       
+            font-size: 4rem;
             font-family: $general-regular;
             font-weight: $regular;
 
@@ -657,7 +752,7 @@
             transition-timing-function: cubic-bezier(.5,0,0,1);
         }
 
-        &:hover {
+        &:hover, &--active {
             width: 48rem;
             filter: grayscale(0);
 
