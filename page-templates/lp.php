@@ -119,14 +119,25 @@
 		<div class="clients__scroll">
 			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/habibs.webp" alt=""></a></figure>
 			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/vida_simples.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/habibs.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/vida_simples.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/habibs.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/habibs.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/vida_simples.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/habibs.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/vida_simples.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/habibs.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/sidigraf.png" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/carvalhocampos.png" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/disnorte.png" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/packtubos.png" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/quartetto.png" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/abigraf.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/atena.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/bioconv.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/carvalhocampos.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/crbambiental.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/disnorte.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/fameag.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/habibs.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/juju_franceschi.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/meuimovel.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/aguasnorio.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/catedral-londrina.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/mauriciocury.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/packtubos.svg" alt=""></a></figure>
 		</div>
 	</div>
 
