@@ -15,17 +15,6 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
-	<!-- Assets -->
-	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/img/favicon/apple-touch-icon.png'); ?>">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/img/favicon/favicon-32x32.png'); ?>">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/img/favicon/favicon-16x16.png'); ?>">
-    <link rel="manifest" href="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/img/favicon/site.webmanifest'); ?>">
-    <link rel="mask-icon" href="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/img/favicon/safari-pinned-tab.svg'); ?>" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <!-- Gerador de Favicon -->
-    <!-- https://realfavicongenerator.net/ -->
-
 	<title><?php echo get_bloginfo('name'); ?></title>
 </head>
 
