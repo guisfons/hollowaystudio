@@ -117,14 +117,14 @@
 	<span>Nossos Clientes</span>
 
 	<div class="clients__box">
-		<div class="clients__scroll">
+	<div class="clients__scroll">
 			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/habibs.webp" alt=""></a></figure>
 			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/vida_simples.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/sidigraf.png" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/carvalhocampos.png" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/disnorte.png" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/packtubos.png" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/quartetto.png" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/sidigraf.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/carvalhocampos.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/disnorte.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/packtubos.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/quartetto.webp" alt=""></a></figure>
 			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/abigraf.webp" alt=""></a></figure>
 			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/atena.webp" alt=""></a></figure>
 			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/bioconv.webp" alt=""></a></figure>
@@ -135,10 +135,10 @@
 			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/habibs.webp" alt=""></a></figure>
 			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/juju_franceschi.webp" alt=""></a></figure>
 			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/meuimovel.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/aguasnorio.svg" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/catedral-londrina.svg" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/mauriciocury.svg" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/packtubos.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/aguas-do-rio.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/catedral-londrina.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/mauricio-cury.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/packtubos.webp" alt=""></a></figure>
 		</div>
 	</div>
 
