@@ -283,6 +283,8 @@
             border-radius: 50%;
             transition: .3s ease-in-out;
 
+            display: none;
+
             svg {
                 transform: translate(0, 0);
                 transition: .3s ease-in-out;
@@ -808,4 +810,12 @@
     width: 7rem;
     height: 7rem;
     z-index: 9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: rgba($color: #003AFF, $alpha: .5);
+    backdrop-filter: blur(.5rem);
+    border-radius: 50%;
 }
