@@ -617,7 +617,9 @@
 
 .projects {
     padding: 10rem 0 0;
-    height: 150vh;
+    @include min (901) {
+        height: 150vh;
+    }
     overflow-y: clip;
     overflow-x: clip;
 
@@ -626,6 +628,10 @@
         width: 90%;
         margin: 0 auto;
         display: flex;
+        
+        @include max (900) {
+            overflow-x: scroll;
+        }
     }
 
     &__inner {
@@ -668,6 +674,9 @@
         flex-direction: column;
         justify-content: flex-end;
         width: 18.2rem;
+        @include max (900) {
+            max-width: 80vw;
+        }
         height: 70dvh;
         position: relative;
 
@@ -694,7 +703,10 @@
         }
 
         a, h4, p {
-            position: absolute;
+            @include min (901) {
+                position: absolute;
+            }
+
             opacity: 0;
             visibility: hidden;
             
@@ -747,9 +759,18 @@
             bottom: 4.4rem;
             width: 38.4rem;
 
+            @include max (900) {
+                width: 100%;
+            }
+
             transition-duration: 1.5s;
             transition-property: height, opacity, visibility;
             transition-timing-function: cubic-bezier(.5,0,0,1);
+
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
         }
 
         &:hover, &--active {
@@ -774,4 +795,13 @@
             }
         }
     }
+}
+
+.wpp {
+    position: fixed;
+    bottom: 3rem;
+    right: 1rem;
+    width: 7rem;
+    height: 7rem;
+    z-index: 9;
 }

@@ -5,11 +5,10 @@ $(document).ready(function () {
 
     loader()
     header()
-    // $(window).on('resize', function() {
-    //     projects()
-    // })
-
     projects()
+    $(window).on('resize', function() {
+        projects()
+    })
     cursor()
     scrollbar()
     fadeIn()
@@ -115,7 +114,7 @@ function clients() {
 }
 
 function projects() {
-    // if($(window).width() > 900) {
+    if($(window).width() > 900) {
         $(window).on('scroll', function() {
             var section = document.querySelector('.projects')
             if (section) {
@@ -152,7 +151,7 @@ function projects() {
                 }
             }
         })
-    // }
+    }
 
     $('.projects__card').on('mouseover', function() {
         if(!$(this).is(':first-of-type')) {
