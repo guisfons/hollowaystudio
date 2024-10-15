@@ -1,5 +1,5 @@
 <?php wp_footer(); ?>
-        <a href="https://wa.me/558192927529?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento%20para%20criação%20de%20um%20site.%20Poderia%20me%20ajudar?" target="_blank" title="Link Whatsapp" class="wpp"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/img/whatsapp.webp" alt="Link Whatsapp"></a>
+        <a href="https://wa.me/558192927529?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20criação%20de%20um%20site.%20Poderia%20me%20ajudar?" target="_blank" title="Link Whatsapp" class="wpp"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/img/whatsapp.webp" alt="Link Whatsapp"></a>
     </main>
     <footer class="footer">
         <div class="footer__container">
