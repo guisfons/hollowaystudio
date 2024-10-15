@@ -10,7 +10,6 @@
 	get_header();
 ?>
 
-<a href="" target="_blank" title="Link Whatsapp" class="wpp"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/img/wpp.svg" alt="Link Whatsapp"></a>
 <section class="wrapper title">
 	<span>Nós desenhamos e criamos um novo mundo.</span>
 </section>
