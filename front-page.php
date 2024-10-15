@@ -109,27 +109,27 @@
 
 	<div class="clients__box">
 		<div class="clients__scroll">
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/habibs.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/vida_simples.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/sidigraf.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/carvalhocampos.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/disnorte.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/packtubos.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/quartetto.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/abigraf.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/atena.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/bioconv.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/carvalhocampos.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/crbambiental.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/disnorte.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/fameag.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/habibs.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/juju_franceschi.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/meuimovel.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/aguas-do-rio.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/catedral-londrina.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/mauricio-cury.webp" alt=""></a></figure>
-			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/packtubos.webp" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/abigraf.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/aguas_do_rio1.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/bioconv.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/carvalhocampos2.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/catedral_londrina1.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/cbrambiental.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/disnorte.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/fameag.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/funkychicken.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/cartacapital.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/juliana.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/labcriação2.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/logoinovaae_041.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/loures.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/mauricio_cury1.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/meuimovel.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/oneseg.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/packtubos.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/quartetto.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/rjconsultoria.svg" alt=""></a></figure>
+			<figure><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logos/sidigraf.svg" alt=""></a></figure>
 		</div>
 	</div>
 
@@ -178,7 +178,7 @@
 					<p>A Funky Chicken é uma renomada empresa produtora de jogos, apaixonada por criar experiências únicas e envolventes para gamers em todo o mundo.</p>
 				</div>
 				<div class="projects__card" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/inovae.webp');">
-					<a href="" target="_blank"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.9878 15.2779L19.313 0.68674L4.7218 1.01191C4.57029 0.995106 4.4153 1.01127 4.26735 1.05932C4.11939 1.10736 3.98192 1.18616 3.86423 1.29038C3.74654 1.3946 3.65138 1.52181 3.5852 1.66338C3.51903 1.80496 3.48337 1.95761 3.48065 2.111C3.47793 2.26438 3.50821 2.41492 3.56943 2.55242C3.63066 2.68992 3.72141 2.81117 3.83553 2.90797C3.94966 3.00476 4.08449 3.07484 4.23091 3.11346C4.37733 3.15208 4.53191 3.15834 4.6842 3.13181L15.6177 2.90521L0.771199 17.7517C0.565368 17.9575 0.445765 18.2327 0.4387 18.5167C0.431633 18.8008 0.537684 19.0703 0.733521 19.2662C0.929358 19.462 1.19894 19.5681 1.48296 19.561C1.76699 19.5539 2.04218 19.4343 2.24801 19.2285L17.0945 4.38202L16.8679 15.3155C16.8618 15.5997 16.9689 15.869 17.1656 16.0642C17.3623 16.2594 17.6324 16.3645 17.9166 16.3565C18.2008 16.3484 18.4758 16.2278 18.681 16.0211C18.8863 15.8145 19.005 15.5388 19.0111 15.2546L18.9878 15.2779Z" fill="white"/></svg></a>
+					<a href="https://inovae.next.homolog.inf.br/" target="_blank"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.9878 15.2779L19.313 0.68674L4.7218 1.01191C4.57029 0.995106 4.4153 1.01127 4.26735 1.05932C4.11939 1.10736 3.98192 1.18616 3.86423 1.29038C3.74654 1.3946 3.65138 1.52181 3.5852 1.66338C3.51903 1.80496 3.48337 1.95761 3.48065 2.111C3.47793 2.26438 3.50821 2.41492 3.56943 2.55242C3.63066 2.68992 3.72141 2.81117 3.83553 2.90797C3.94966 3.00476 4.08449 3.07484 4.23091 3.11346C4.37733 3.15208 4.53191 3.15834 4.6842 3.13181L15.6177 2.90521L0.771199 17.7517C0.565368 17.9575 0.445765 18.2327 0.4387 18.5167C0.431633 18.8008 0.537684 19.0703 0.733521 19.2662C0.929358 19.462 1.19894 19.5681 1.48296 19.561C1.76699 19.5539 2.04218 19.4343 2.24801 19.2285L17.0945 4.38202L16.8679 15.3155C16.8618 15.5997 16.9689 15.869 17.1656 16.0642C17.3623 16.2594 17.6324 16.3645 17.9166 16.3565C18.2008 16.3484 18.4758 16.2278 18.681 16.0211C18.8863 15.8145 19.005 15.5388 19.0111 15.2546L18.9878 15.2779Z" fill="white"/></svg></a>
 					<h4>Inovae</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
 				</div>
