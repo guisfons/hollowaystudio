@@ -34,7 +34,7 @@ body {
     background-color: $black;
     color: $white;
     overflow-x: hidden;
-    cursor: none !important;
+    // cursor: none !important;
 
     &:has(.loader--active) {
         overflow: hidden;
@@ -50,7 +50,7 @@ img {
 a {
     color: inherit;
     text-decoration: none;
-    cursor: none;
+    // cursor: none;
 }
 .wrapper {
     margin: 0 auto;
@@ -58,7 +58,7 @@ a {
     max-width: 1240px;
 }
 span, button {
-    cursor: none;
+    // cursor: none;
 }
 
 h2 {
