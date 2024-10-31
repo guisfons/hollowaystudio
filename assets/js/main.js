@@ -3,13 +3,13 @@ $(document).ready(function () {
     //     wrapperDistance()
     // })
 
-    loader()
+    // loader()
     header()
     projects()
     $(window).on('resize', function() {
         projects()
     })
-    cursor()
+    // cursor()
     scrollbar()
     fadeIn()
     clients()

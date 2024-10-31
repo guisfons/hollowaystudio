@@ -19,6 +19,6 @@
         </div>
         <div class="blob blob--7"><svg width="389" height="408" viewBox="0 0 389 408" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_f_107_30)"><path d="M142.382 311.163C69.559 338.075 85.4261 149.494 151.017 107.957C153.299 106.511 155.698 105.147 158.212 103.874C209.499 77.9184 277.536 109.765 292.904 140.131C308.273 170.497 199.75 282.507 148.463 308.463C146.228 309.594 144.206 310.489 142.382 311.163Z" fill="url(#paint0_linear_107_30)"/></g><defs><filter id="filter0_f_107_30" x="0.390869" y="0.309082" width="387.99" height="407.471" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="47" result="effect1_foregroundBlur_107_30"/></filter><linearGradient id="paint0_linear_107_30" x1="341.072" y1="147.817" x2="128.753" y2="98.3578" gradientUnits="userSpaceOnUse"><stop offset="0.0285893" stop-color="#C1CFFF"/><stop offset="0.351797" stop-color="#002ECC"/><stop offset="0.620852" stop-color="#001DB3"/><stop offset="1" stop-color="#5200FF"/></linearGradient></defs></svg></div>
     </footer>
-    <div class="holloway-cursor"></div>
+    <!-- <div class="holloway-cursor"></div> -->
 </body>
 </html>
